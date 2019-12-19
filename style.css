@@ -7,6 +7,7 @@ body {
     .business-model-page {
         grid-template-columns: 1fr!important;
         grid-template-rows: 1fr 1fr!important;
+        grid-row-gap: 5rem;
     }
     .reasons-grid {
         grid-template-columns: 1fr!important;
