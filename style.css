@@ -13,6 +13,9 @@ body {
         grid-template-columns: 1fr!important;
         grid-template-rows: 1fr 1fr 1fr 1fr!important;
     }
+    .header {
+        display: none;
+    }
 }
 @media (max-width: 1200px) {
     .container {
@@ -74,9 +77,39 @@ body {
     }
 }
 
-
 div {
     display: block;
+}
+
+.header {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #5976C0;
+    height: 50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.header-item {
+    display: flex;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-item:hover img{
+    filter: none;
+}
+
+.header-item:hover {
+    color: #5976C0;
+    background: white;
 }
 
 .page-header {
