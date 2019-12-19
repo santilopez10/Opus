@@ -14,7 +14,7 @@ body {
         grid-template-rows: 1fr 1fr 1fr 1fr!important;
     }
     .header {
-        display: none;
+        display: none!important;
     }
 }
 @media (max-width: 1200px) {
