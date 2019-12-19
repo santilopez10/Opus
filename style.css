@@ -28,6 +28,7 @@ body {
     .nav-miniscreen {
         display: flex;
         position: fixed;
+        overflow-y: scroll;
         left: 0;
         top: 0;
         width: 100vw;
