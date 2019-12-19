@@ -47,6 +47,10 @@ body {
         margin-left: 4%!important;
         margin-right: 4%!important;
     }
+    .reasons-grid {
+        grid-template-columns: 1fr!important;
+        grid-template-rows: 1fr 1fr 1fr 1fr!important;
+    }
 }
 
 @media (min-width: 1200.2px) {
