@@ -4,6 +4,10 @@ body {
 }
 
 @media (max-width: 995px) {
+    .business-model-page {
+        grid-template-columns: 1fr!important;
+        grid-template-rows: 1fr 1fr!important;
+    }
     .reasons-grid {
         grid-template-columns: 1fr!important;
         grid-template-rows: 1fr 1fr 1fr 1fr!important;
