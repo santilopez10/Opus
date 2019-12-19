@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    display: block;
+}
+
+.page-header {
+    background: #5976C0;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 65%,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 70%,0 100%);
+    height: 400px;
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 13rem;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+    filter: brightness(0) invert();
+    max-width: 205px;
+}
+
+.logo img {
+    width: 190px;
+    height: auto;
+}
+
+.page-title {
+    color: white;
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+}
+
+.navigation {
+    position: relative;
+    margin-left: auto;
+    max-width: 1140px;
+    align-content: right;
+}
+.nav-list {
+    right:0;
+    list-style: none;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.nav-item {
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.company-page {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+.company-page img {
+    width: 650px;
+    height: auto;
+}
+
+.company-info {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 25px;
+    margin-top: 4rem;
+    text-align: left;
+}
+
+.business-model-page {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    text-align: center;
+}
+
+.model-info {
+    height: 800px;
+    background: lightgray;
+    color: white;
+    font-size: 30px;
+    box-shadow: 0 0 11px 1px hsla(0,0%,10%,0.7);
+}
+
+.why-us-page {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+.reasons-grid {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 250px;
+    grid-row-gap: 100px;
+}
+
+.reasons {
+    text-align: left;
+    font-weight: bold;
+}
+
+.reasons p {
+    font-weight: normal;
+    font-size: 20px;
+}
