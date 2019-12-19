@@ -112,8 +112,9 @@ div {
 }
 
 .navigation {
-    position: relative;
-    margin-left: auto;
+    position: fixed;
+    right: 0;
+    margin-right: 15%;
     max-width: 1140px;
     align-content: right;
 }
