@@ -298,7 +298,7 @@ div {
 }
 
 .company-card-photo {
-    
+    box-sizing: border-box;
     height:250px;
     width: 100%;
     border-top-left-radius: 3px;
@@ -306,9 +306,15 @@ div {
     background: red;
 }
 
+.company-card-photo img {
+    box-sizing: border-box;
+    width: 100%;
+    height:100%;
+}
 
 .company-card-bottom {
     display: block;
+    box-sizing: border-box;
     position: relative;
     height: 250px;
     width: 100%;
